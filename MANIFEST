@@ -5,7 +5,8 @@ META.yml
 Makefile.PL
 README
 cpanfile
-lib/Catmandu/Fix/wdata_limit_language.pm
+lib/Catmandu/Fix/wdata_retain_language.pm
+lib/Catmandu/Fix/wdata_simplify_claims.pm
 lib/Catmandu/Importer/Wikidata.pm
 lib/Catmandu/Wikidata.pm
 t/00-compile.t

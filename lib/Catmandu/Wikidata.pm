@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Catmandu::Wikidata;
 #ABSTRACT: Import from Wikidata for processing with Catmandu
-our $VERSION = '0.01'; #VERSION
+our $VERSION = '0.02'; #VERSION
 
 
 1;
@@ -19,7 +19,7 @@ Catmandu::Wikidata - Import from Wikidata for processing with Catmandu
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -28,7 +28,7 @@ version 0.01
     catmandu convert Wkidata --title dewiki:Metadaten to JSON --pretty
 
     catmandu convert Wikidata --title "Emma Goldman" \
-        --fix "wdata_limit_language('en')" to JSON --pretty
+        --fix "wdata_retain_language('en')" to JSON --pretty
 
 =head1 DESCRIPTION
 
@@ -43,16 +43,23 @@ within the L<Catmandu> framework.
 
 Import entities from L<http://www.wikidata.org/>.
 
-=item L<Catmandu::Fix::wdata_limit_language>
+=item L<Catmandu::Fix::wdata_retain_language>
 
-Provides the fix C<wdata_limit_language($language)> to limit the values of
+Provides the fix C<wdata_retain_language($language)> to limit the values of
 field C<aliases>, C<labels>, and C<descriptions> to a selected language. 
+
+=item L<Catmandu::Fix::wdata_simplify_claims>
+
+Simplfies the C<claims> field of a Wikidata entity record.
 
 =back
 
 =head1 SEE ALSO
 
-* <http://librecat.org/>
+Background information on Catmandu can be found at <http://librecat.org/>.
+
+Background information on Wikidata can be found at
+<http://www.wikidata.org/wiki/Wikidata:Introduction>.
 
 =head1 AUTHOR
 

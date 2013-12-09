@@ -13,15 +13,18 @@ meta-spec:
   version: 1.4
 name: Catmandu-Wikidata
 provides:
-  Catmandu::Fix::wdata_limit_language:
-    file: lib/Catmandu/Fix/wdata_limit_language.pm
-    version: 0.01
+  Catmandu::Fix::wdata_retain_language:
+    file: lib/Catmandu/Fix/wdata_retain_language.pm
+    version: 0.02
+  Catmandu::Fix::wdata_simplify_claims:
+    file: lib/Catmandu/Fix/wdata_simplify_claims.pm
+    version: 0.02
   Catmandu::Importer::Wikidata:
     file: lib/Catmandu/Importer/Wikidata.pm
-    version: 0.01
+    version: 0.02
   Catmandu::Wikidata:
     file: lib/Catmandu/Wikidata.pm
-    version: 0.01
+    version: 0.02
 requires:
   Catmandu: 0.7
   Furl: 3.0
@@ -33,4 +36,4 @@ resources:
   bugtracker: https://github.com/nichtich/Catmandu-Wikidata/issues
   homepage: https://github.com/nichtich/Catmandu-Wikidata
   repository: https://github.com/nichtich/Catmandu-Wikidata.git
-version: 0.01
+version: 0.02
