@@ -1,6 +1,6 @@
 package Catmandu::Fix::wdata_simplify_claims;
 #ABSTRACT: Simplify the claims of a Wikidata entity
-our $VERSION = '0.02'; #VERSION
+our $VERSION = '0.3.0'; #VERSION
 use Catmandu::Sane;
 use Moo;
 
@@ -69,7 +69,7 @@ Catmandu::Fix::wdata_simplify_claims - Simplify the claims of a Wikidata entity
 
 =head1 VERSION
 
-version 0.02
+version 0.3.0
 
 =head1 DESCRIPTION
 

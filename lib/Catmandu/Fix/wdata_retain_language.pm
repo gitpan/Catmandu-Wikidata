@@ -1,6 +1,6 @@
 package Catmandu::Fix::wdata_retain_language;
 #ABSTRACT: Limit string values to a selected language
-our $VERSION = '0.02'; #VERSION
+our $VERSION = '0.3.0'; #VERSION
 use Catmandu::Sane;
 use Moo;
 
@@ -47,7 +47,7 @@ Catmandu::Fix::wdata_retain_language - Limit string values to a selected languag
 
 =head1 VERSION
 
-version 0.02
+version 0.3.0
 
 =head1 DESCRIPTION
 

@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Catmandu::Wikidata;
 #ABSTRACT: Import from Wikidata for processing with Catmandu
-our $VERSION = '0.02'; #VERSION
+our $VERSION = '0.3.0'; #VERSION
 
 
 1;
@@ -19,7 +19,7 @@ Catmandu::Wikidata - Import from Wikidata for processing with Catmandu
 
 =head1 VERSION
 
-version 0.02
+version 0.3.0
 
 =head1 SYNOPSIS
 
