@@ -1,5 +1,9 @@
 Changelog for Catmandu-Wikidata
 
+0.03 2014-04-22T18:37:53
+ - version number [Jakob Voss]
+ - extended based on getJSON [Jakob Voss]
+
 0.02 2013-12-09T09:26:08
  - added wdata_simplify_claims fix [Jakob Voss]
  - renamed wdata_limit_language to wdata_retain_language [Jakob Voss]
@@ -7,7 +11,4 @@ Changelog for Catmandu-Wikidata
 
 0.01 2013-12-04T10:09:46
  - initial draft [Jakob Voss]
-
-0.3.0 2014-04-21T19:30:59
- - extended based on getJSON [Jakob Voss]
 

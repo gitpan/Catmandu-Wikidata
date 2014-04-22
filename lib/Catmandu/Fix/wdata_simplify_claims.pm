@@ -1,6 +1,6 @@
 package Catmandu::Fix::wdata_simplify_claims;
 #ABSTRACT: Simplify the claims of a Wikidata entity
-our $VERSION = '0.3.0'; #VERSION
+our $VERSION = '0.03'; #VERSION
 use Catmandu::Sane;
 use Moo;
 
@@ -69,7 +69,7 @@ Catmandu::Fix::wdata_simplify_claims - Simplify the claims of a Wikidata entity
 
 =head1 VERSION
 
-version 0.3.0
+version 0.03
 
 =head1 DESCRIPTION
 
@@ -83,7 +83,7 @@ Jakob Voß
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2013 by Jakob Voß.
+This software is copyright (c) 2014 by Jakob Voß.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

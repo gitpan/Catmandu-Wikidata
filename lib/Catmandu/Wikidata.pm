@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Catmandu::Wikidata;
 #ABSTRACT: Import from Wikidata for processing with Catmandu
-our $VERSION = '0.3.0'; #VERSION
+our $VERSION = '0.03'; #VERSION
 
 
 1;
@@ -19,7 +19,7 @@ Catmandu::Wikidata - Import from Wikidata for processing with Catmandu
 
 =head1 VERSION
 
-version 0.3.0
+version 0.03
 
 =head1 SYNOPSIS
 
@@ -67,7 +67,7 @@ Jakob Voß
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2013 by Jakob Voß.
+This software is copyright (c) 2014 by Jakob Voß.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
