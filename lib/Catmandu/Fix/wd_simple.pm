@@ -1,6 +1,6 @@
 package Catmandu::Fix::wd_simple;
 #ABSTRACT: Simplify Wikidata entity records
-our $VERSION = '0.04'; #VERSION
+our $VERSION = '0.05'; #VERSION
 use Catmandu::Sane;
 use Moo;
 
@@ -36,7 +36,7 @@ Catmandu::Fix::wd_simple - Simplify Wikidata entity records
 
 =head1 VERSION
 
-version 0.04
+version 0.05
 
 =head1 DESCRIPTION
 

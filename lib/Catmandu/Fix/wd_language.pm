@@ -1,6 +1,6 @@
 package Catmandu::Fix::wd_language;
-#ABSTRACT: Limit string values to a selected language
-our $VERSION = '0.04'; #VERSION
+#ABSTRACT: Limit string values in a Wikidata entity record to a selected language
+our $VERSION = '0.05'; #VERSION
 use Catmandu::Sane;
 use Moo;
 
@@ -64,11 +64,11 @@ __END__
 
 =head1 NAME
 
-Catmandu::Fix::wd_language - Limit string values to a selected language
+Catmandu::Fix::wd_language - Limit string values in a Wikidata entity record to a selected language
 
 =head1 VERSION
 
-version 0.04
+version 0.05
 
 =head1 DESCRIPTION
 
