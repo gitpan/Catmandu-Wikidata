@@ -1,6 +1,9 @@
 Changelog for Catmandu-Wikidata
 
-0.03 2014-04-22T18:37:53
+0.04 2014-04-23T08:14:06
+ - extended and renamed fixes [Jakob Voss]
+
+0.03 2014-04-22T18:34:37
  - version number [Jakob Voss]
  - extended based on getJSON [Jakob Voss]
 
