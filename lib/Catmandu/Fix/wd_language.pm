@@ -1,11 +1,12 @@
 package Catmandu::Fix::wd_language;
 #ABSTRACT: Limit string values in a Wikidata entity record to a selected language
-our $VERSION = '0.05'; #VERSION
+our $VERSION = '0.06'; #VERSION
 use Catmandu::Sane;
 use Moo;
 
-has language => (is => 'ro', required => 1);
+with 'Catmandu::Fix::Base';
 
+has language => (is => 'ro', required => 1);
 has force => (is => 'ro');
 
 around BUILDARGS => sub {
@@ -13,9 +14,18 @@ around BUILDARGS => sub {
     $orig->($class, { language => $language });
 };
 
-sub fix {
-    my ($self, $data) = @_;
+sub emit {
+    my ($self, $fixer) = @_;
+
     my $language = $self->language;
+    my $var  = $fixer->var;
+    my $code = $fixer->capture( sub { _fix_code($_[0],$language) } );
+
+    return "${code}->(${var})";
+}
+
+sub _fix_code {
+    my ($data, $language) = @_;
 
     foreach my $what (qw(labels descriptions)) {
         next unless exists $data->{$what};
@@ -68,7 +78,7 @@ Catmandu::Fix::wd_language - Limit string values in a Wikidata entity record to 
 
 =head1 VERSION
 
-version 0.05
+version 0.06
 
 =head1 DESCRIPTION
 

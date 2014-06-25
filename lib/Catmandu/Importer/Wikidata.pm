@@ -1,6 +1,6 @@
 package Catmandu::Importer::Wikidata;
 #ABSTRACT: Import from Wikidata
-our $VERSION = '0.05'; #VERSION
+our $VERSION = '0.06'; #VERSION
 use Catmandu::Sane;
 use Moo;
 use URI::Template;
@@ -117,7 +117,7 @@ Catmandu::Importer::Wikidata - Import from Wikidata
 
 =head1 VERSION
 
-version 0.05
+version 0.06
 
 =head1 SYNOPSIS
 

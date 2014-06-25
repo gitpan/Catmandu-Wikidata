@@ -1,6 +1,9 @@
 Changelog for Catmandu-Wikidata
 
-0.05 2014-04-23T19:34:17
+0.06 2014-06-25T12:44:02
+ - improved wd_simple fix [Jakob Voss]
+
+0.05 2014-04-23T19:32:25
  - fix #4 by ugrading dependency [Jakob Voss]
  - build status image as svg [Jakob Voss]
  - documentation [Jakob Voss]

@@ -1,6 +1,6 @@
 package Catmandu::Fix::wd_simple_strings;
 #ABSTRACT: Simplify labels, descriptions, and aliases of Wikidata entity records
-our $VERSION = '0.05'; #VERSION
+our $VERSION = '0.06'; #VERSION
 use Catmandu::Sane;
 use Moo;
 
@@ -39,7 +39,7 @@ Catmandu::Fix::wd_simple_strings - Simplify labels, descriptions, and aliases of
 
 =head1 VERSION
 
-version 0.05
+version 0.06
 
 =head1 DESCRIPTION
 
